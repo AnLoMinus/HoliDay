@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+#holidays-list {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.holiday-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: right;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.holiday-card h2 {
+  margin: 0 0 15px;
+  color: #6200ea;
+  font-size: 1.5em;
+}
+
+.holiday-card p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.holiday-card strong {
+  color: #4500b5;
+}
+
+#clock-container {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+#current-time {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.today-holiday-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 800px;
+}
+
+.today-holiday-card h3 {
+  color: white;
+  margin: 0 0 10px 0;
+  font-size: 1.3em;
+}
+
+.today-holiday-card p {
+  margin: 5px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
